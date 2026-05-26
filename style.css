@@ -1,15 +1,20 @@
 #top {
-  margin-top: 10px; /*위로부터 간격 10 */
   display: flex; /*사진과 일자 정렬 */
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
 }
-
+#logo {
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
 #top #menu {
   list-style-type: none; /*ul 점 없애기 */
+  display: inline-flex;
 }
 #top #menu > li > a {
   text-decoration: none; /* a태그 밑줄 없애기 */
   color: #787570;
+  text-align: right;
+  margin: 7px;
 }
