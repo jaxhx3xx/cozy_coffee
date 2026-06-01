@@ -5,16 +5,18 @@
 }
 #logo {
   float: left;
-  margin-left: 30px;
+  margin-left: 300px;
   margin-top: 20px;
 }
 #top #menu {
   list-style-type: none; /*ul 점 없애기 */
   display: inline-flex;
+  margin: 30px 0 0 10px;
+  margin-right: 300px;
 }
 #top #menu > li > a {
   text-decoration: none; /* a태그 밑줄 없애기 */
-  color: #787570;
+  color: #502f1c;
   text-align: right;
   margin: 7px;
 }
